@@ -84,18 +84,22 @@ blend_point_1/node = SubResource("33")
 blend_point_1/pos = 1.0
 
 [sub_resource type="AnimationNodeTransition" id="35"]
-enabled_inputs = 5
 xfade_time = 0.2
 input_0/name = "on-ground"
 input_0/auto_advance = false
+input_0/reset = true
 input_1/name = "in-air"
 input_1/auto_advance = false
+input_1/reset = true
 input_2/name = "crouching"
 input_2/auto_advance = false
+input_2/reset = true
 input_3/name = "swimming"
 input_3/auto_advance = false
+input_3/reset = true
 input_4/name = "surging"
 input_4/auto_advance = false
+input_4/reset = true
 
 [sub_resource type="AnimationNodeAnimation" id="48"]
 animation = &"unarmed-surge-charge"
